@@ -3,12 +3,7 @@ var express = require('express');
 var app = express.createServer(express.logger());
 
 var fs = require('fs');
-var buf = require('buf');
-<<<<<<< HEAD
-
-
-=======
->>>>>>> test
+//var buf = require('buf');
 
 
 
