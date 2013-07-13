@@ -10,6 +10,8 @@ var buf = require('buf');
 =======
 >>>>>>> test
 
+
+
 app.get('/', function(request, response) {
   response.send(buf.tostring(fs.readFileSync("index.html")));
 });
